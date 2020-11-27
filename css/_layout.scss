@@ -1,0 +1,22 @@
+body {
+    background-image: url(../image/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapping {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar {
+    background-color: transparent;
+    flex-basis: 45%;
+}
+
+.main {
+    flex-basis: 1;
+    background-color: white;
+}

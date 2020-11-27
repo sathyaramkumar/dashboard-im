@@ -1,0 +1,78 @@
+.sidebar {
+    padding: 20px 30px;
+    color: $font-white;
+    height: 100vh;
+    &-brand {
+        display: flex;
+        padding: 20px 0;
+        .avator {
+            width: 40px;
+            height: 40px;
+            padding-right: 20px;
+        }
+        .avator-content {
+            padding-top: 5px;
+            .avator-title {
+                font-weight: 100;
+            }
+            .avator-sub-title {
+                font-weight: 500;
+                font-size: 13px;
+            }
+        }
+    }
+    hr {
+        color: $font-white;
+    }
+    &-nav {
+        .nav-media {
+            padding: 25px 15px;
+
+            &-title {
+                font-size: 10px;
+                opacity: 0.5;
+                color: $font-white;
+                padding: 15px 0;
+            }
+            .nav-item {
+                padding: 10px 0;
+                .nav-link {
+                    color: $font-white;
+
+                    .nav-badge {
+                        background-color: $font-white;
+                        padding: 5px 10px;
+                        border-radius: 50%;
+                        margin-left: 60px;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+    .nav-account {
+        padding: 25px 15px;
+
+        &-title {
+            font-size: 10px;
+            opacity: 0.5;
+            color: $font-white;
+            padding: 15px 0;
+        }
+        .nav-item {
+            padding: 10px 0;
+            .nav-link {
+                color: $font-white;
+            }
+        }
+    }
+    &-btn {
+        border: none;
+        background-color: transparent;
+        color: $font-white;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        margin: 70px 0 0 17px;
+    }
+}

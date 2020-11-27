@@ -1,0 +1,294 @@
+.main {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 20px 40px;
+    .option-bar {
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+        .dropdown-category {
+            &-btn {
+                color: $title-muted;
+                padding-right: 30px;
+                i {
+                    padding-left: 8px;
+                }
+            }
+            &-menu {
+                display: none;
+                .dropdown-category-item {
+                    padding: 10px 0;
+                    .dropdown-category-link {
+                        color: $text-muted;
+                    }
+                }
+            }
+        }
+        .dropdown-year {
+            &-btn {
+                color: $title-muted;
+                i {
+                    padding-left: 8px;
+                }
+            }
+            &-menu {
+                display: none;
+                .dropdown-year-item {
+                    padding: 10px 0;
+                    .dropdown-year-link {
+                        color: $text-muted;
+                    }
+                }
+            }
+        }
+        &-form {
+            .option-bar-input {
+                padding: 10px 110px;
+                border-radius: 50px;
+                border-color: rgba(0, 0, 0, 0.24);
+                outline: none;
+                margin-left: 350px;
+            }
+        }
+    }
+
+
+
+    .hero {
+        display: flex;
+        padding: 20px 0;
+        &-img {
+            width: 800px;
+            border-radius: 10px;
+        }
+        .hero-conent {
+            padding: 50px 0 0 50px;
+            .hero-title {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                color: $title-muted;
+                padding-bottom: 10px;
+                .hero-rating {
+                    .hero-rating-highlight {
+                        color: rgba(0, 0, 255, 0.774);
+                    }
+                }
+            }
+            .hero-sub-title {
+                color: $text-muted;
+            }
+            .hero-text {
+                color: $text-muted;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                font-size: 14px;
+                line-height: 20px;
+                .dot {
+
+                }
+                .read-more {
+                    display: none;
+                }
+                .check-more {
+                    border: none;
+                    outline: none;
+                    background-color: transparent;
+                    color: blue;
+                    font-family: 'Roboto', sans-serif;
+                }
+            }
+        }
+        .hero-dropdown {
+            &-btn {
+                border: 1px solid $text-muted;
+                padding: 10px 15px;
+                font-size: 11px;
+                color: $title-muted;
+                font-weight: 600;
+                border-radius: 3px;
+            }
+            &-menu {
+                display: none;
+                .hero-dropdown-item {
+                    padding: 10px;
+                    .hero-dropdown-link {
+                        color: $title-muted;
+                        font-weight: 600;
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+    .other-seasons {
+        display: flex;
+        .season {
+            &-img {
+                width: 275px;
+                padding: 0 10px;
+                border-radius: 15px;
+            }
+            &-title {
+                color: $font-white;
+                position: relative;
+                top: -40px;
+                left: 30px;
+            }
+        }
+    }
+    .feeds-profiles {
+        display: flex;
+        .feed {
+            .feed-header-menu {
+                padding: 20px 0 0 0;
+                .feed-title {
+                    padding-right: 20px;
+                    color: $title-muted;
+                    font-weight: 600;
+                    font-size: 15px;
+                }
+            }
+            .container-episode-rating {
+                display: flex;
+                .episode-feed {
+                    &-section {
+                        display: flex;
+                        align-items: center;
+                        padding: 20px 0;
+                        .episode-feed-img {
+                            width: 130px;
+                            height: 65px;
+                            border-radius: 5px;
+                        }
+                        .episode-feed-content {
+                            padding-left: 30px;
+                            .feed-content-heading {
+                                display: flex;
+                                .feed-content-title {
+                                    color: $title-muted;
+                                    padding-right: 20px;
+                                }
+                                .feed-content-sub-title {
+                                    color: $text-muted;
+                                    font-size: 12px;
+                                }
+                            }
+                            .feed-content-text {
+                                color: $text-muted;
+                                font-size: 13px;
+                                width: 450px;
+                                padding-top: 10px;
+                            }
+                        }
+                        .feed-content-btn {
+                            background-color: transparent;
+                            outline: none;
+                            width: 110px;
+                            height: 40px;
+                            border-radius: 5px;
+                            color: $title-muted;
+                            font-family: 'Roboto', sans-serif;
+                            font-weight: 600;
+                            font-size: 10px;
+                            margin: 0 40px;
+                            i {
+                                padding-left: 10px;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+                .rating-feed {
+                    display: none;
+                    &-section {
+                        display: flex;
+                        align-items: center;
+                        padding: 20px 0;
+                        .rating-feed-img {
+                            width: 130px;
+                            height: 65px;
+                            border-radius: 5px;
+                        }
+                        .rating-feed-content {
+                            padding-left: 30px;
+                            .rating-feed-content-heading {
+                                display: flex;
+                                .rating-feed-content-title {
+                                    color: $title-muted;
+                                    padding-right: 20px;
+                                }
+                                .rating-feed-content-sub-title {
+                                    color: $text-muted;
+                                    font-size: 12px;
+                                }
+                            }
+                            .rating-feed-content-text {
+                                color: $text-muted;
+                                font-size: 13px;
+                                width: 450px;
+                                padding-top: 10px;
+                            }
+                        }
+                        .rating-feed-content-btn {
+                            background-color: transparent;
+                            outline: none;
+                            width: 110px;
+                            height: 40px;
+                            border-radius: 5px;
+                            color: $title-muted;
+                            font-family: 'Roboto', sans-serif;
+                            font-weight: 600;
+                            font-size: 10px;
+                            margin: 0 40px;
+                            i {
+                                padding-left: 10px;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .card-carosal {
+            width: 400px;
+            display: flex;
+            .card:nth-child(1) {
+                display: none;
+            }
+            .card {
+                &-img {
+                    width: 350px;
+                    height: 450px;
+                    border-radius: 10px;
+                }
+                .card-body {
+                    margin-top: -200px;
+                    width: 350px;
+                    color: $font-white;
+                    padding-left: 30px;
+                    .card-group-btn {
+                        position: relative;
+                        top: -200px;
+                        left: 270px;
+                        .card-btn {
+                            border: none;
+                            background-color: transparent;
+                            outline: none;
+                            color: $font-white;
+                        }
+                    }
+                    .card-text {
+                        font-size: 13px;
+                        width: 250px;
+                        line-height: 20px;
+                        padding-top: 30px;
+                    }
+                }
+            }
+            .card:nth-child(3) {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>dashbord-im</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+
+    <!-- font icon cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- font family cdn -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="wrapping">
+
+        <div class="sidebar">
+
+            <div class="sidebar-brand">
+                <img src="image/avatar-anisha.png" alt="anisha" class="avator" />
+                <div class="avator-content">
+                    <h5 class="avator-title">Caroline Brown</h5>
+                    <small class="avator-sub-title">Toronto, No</small>
+                </div>
+            </div>
+            <hr />
+            <nav class="sidebar-nav">
+                <div class="nav-media">
+                    <small class="nav-media-title">MEDIA</small>
+                    <ul>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">TV Shows</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Audiobooks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Apps</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Updates <span class="nav-badge">5</span></a>
+                       </li>
+                    </ul>
+                </div>
+
+                <div class="nav-account">
+                    <small class="nav-account-title">ACCOUNT</small>
+                    <ul>
+                       <li class="nav-item">
+                            <a href="#" class="nav-link">Library</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Wishlist</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Settings</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <hr>
+            <button type="submit" class="sidebar-btn">Sign Out</button>
+        </div>
+
+        <div class="main">
+
+            <div class="option-bar">
+
+                <div class="dropdown-category">
+                    <a href="#dropdownCateMenu" class="dropdown-category-btn">Crime <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                    <div class="dropdown-category-menu" id="dropdownCateMenu">
+                        <ul>
+                            <li class="dropdown-category-item">
+                                <a href="#" class="dropdown-category-link">comedy</a>
+                            </li>
+                            <li class="dropdown-category-item">
+                                <a href="#" class="dropdown-category-link">horor</a>
+                            </li>
+                            <li class="dropdown-category-item">
+                                <a href="#" class="dropdown-category-link">commercial</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="dropdown-year">
+                    <a href="#dropdownYearMenu" class="dropdown-year-btn">2012<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                    <div class="dropdown-year-menu" id="dropdownYearMenu">
+                        <ul>
+                            <li class="dropdown-year-item">
+                                <a href="#" class="dropdown-year-link">2013</a>
+                            </li>
+                            <li class="dropdown-year-item">
+                                <a href="#" class="dropdown-year-link">2014</a>
+                            </li>
+                            <li class="dropdown-year-item">
+                                <a href="#" class="dropdown-year-link">2015</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <form class="option-bar-form">
+                    <input type="search" class="option-bar-input" placeholder="Search your interesting...">
+                </form>
+            </div>
+            <hr>
+
+            <div class="hero">
+                <img src="image/hero.png" alt="hero" class="hero-img">
+                <div class="hero-conent">
+                    <h3 class="hero-title">Breaking Bad 
+                        <span class="hero-rating"><span class="hero-rating-highlight">9.5</span>/10</span>
+                    </h3>
+                    <small class="hero-sub-title">TV-MA Crime,Drama,Thriller</small>
+                    <p class="hero-text">
+                        Mild-mannered high school chemistry teacher Walter White thinks his life 
+                        can't get mush worse. His salary barely makes ends meet, a situation not
+                        Likely to improve once his pregnant wife gives birth, and their teenage
+                        son is batting cerearal palsy. But Walter is dumbstruck when he learns he
+                        has terminal cancer. Realizing that his illness probably will desperate
+                        bid to earn as mush
+                        <span id="dot" class="dot">....</span>
+                        <span id="readMore" class="read-more">Mild-mannered high school chemistry teacher Walter White thinks his life 
+                        can't get mush worse. His salary barely makes ends meet, a situation not
+                        Likely to improve once his pregnant wife gives birth, and their teenage
+                        son is batting cerearal palsy. But Walter is dumbstruck when he learns he</span>
+                        <a href="#readMore" class="check-more">Check more</a>
+                    </p>
+                    <div class="hero-dropdown">
+                        <a href="#heroDropdownMenu" class="hero-dropdown-btn">$24.99 Buy Season Pass <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <div class="hero-dropdown-menu" id="heroDropdownMenu">
+                            <ul>
+                                <li class="hero-dropdown-item">
+                                    <a href="#" class="hero-dropdown-link">$50 subscription</a>
+                                </li>
+                                <li class="hero-dropdown-item">
+                                    <a href="#" class="hero-dropdown-link">free trial</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="other-seasons">
+                <div class="season">
+                    <img src="image/hero.png" class="season-img" alt="season poster">
+                    <h5 class="season-title">season 1</h5>
+                </div>
+                <div class="season">
+                    <img src="image/hero.png" class="season-img" alt="season poster">
+                    <h5 class="season-title">season 2</h5>
+                </div>
+                <div class="season">
+                    <img src="image/hero.png" class="season-img" alt="season poster">
+                    <h5 class="season-title">season 3</h5>
+                </div>
+                <div class="season">
+                    <img src="image/hero.png" class="season-img" alt="season poster">
+                    <h5 class="season-title">season 4</h5>
+                </div>
+            </div>
+
+            <div class="feeds-profiles">
+
+                <div class="feed">
+                    <div class="feed-header-menu">
+                        <a href="#episodeFeedSection" class="feed-title">Episode</a>
+                        <a href="#ratingFeedSection" class="feed-title">Ratings & Reviews</a>
+                    </div>
+
+                    <div class="container-episode-rating">
+
+                        <div class="episode-feed" id="episodeFeedSection">
+    
+                            <div class="episode-feed-section">
+                                <img src="image/hero.png" alt="feed video" class="episode-feed-img">
+                                <div class="episode-feed-content">
+                                    <div class="feed-content-heading">
+                                        <h5 class="feed-content-title">Box Cutter</h5>
+                                        <small class="feed-content-sub-title">47min, 2.02GB(1080p HD)</small>
+                                    </div>
+                                    <p class="feed-content-text">
+                                        Walt and Jesse are held captive for Gus, after Gale's death. Meanwhile,
+                                        skyles tries to find out what happened to Walt.
+                                    </p>
+                                </div>
+                                <button class="feed-content-btn">$3.49 HD<i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                            </div>
+        
+                            <div class="episode-feed-section">
+                                <img src="image/hero.png" alt="feed video" class="episode-feed-img">
+                                <div class="episode-feed-content">
+                                    <div class="feed-content-heading">
+                                        <h5 class="feed-content-title">Thirty-Eight Snub</h5>
+                                        <small class="feed-content-sub-title">45min, 2.02GB(1080p HD)</small>
+                                    </div>
+                                    <p class="feed-content-text">
+                                        Walt and Jesse are held captive for Gus, after Gale's death. Meanwhile,
+                                        skyles tries to find out what happened to Walt.
+                                    </p>
+                                </div>
+                                <button class="feed-content-btn">$3.49 HD<i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                            </div>
+        
+                            <div class="episode-feed-section">
+                                <img src="image/hero.png" alt="feed video" class="episode-feed-img">
+                                <div class="episode-feed-content">
+                                    <div class="feed-content-heading">
+                                        <h5 class="feed-content-title">Open House</h5>
+                                        <small class="feed-content-sub-title">46min, 2.02GB(1080p HD)</small>
+                                    </div>
+                                    <p class="feed-content-text">
+                                        Walt and Jesse are held captive for Gus, after Gale's death. Meanwhile,
+                                        skyles tries to find out what happened to Walt.
+                                    </p>
+                                </div>
+                                <button class="feed-content-btn">$3.49 HD<i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+        
+        
+                        <div class="rating-feed" id="ratingFeedSection">
+        
+                            <div class="rating-feed-section">
+                                <img src="image/hero.png" alt="feed video" class="rating-feed-img">
+                                <div class="rating-feed-content">
+                                    <div class="rating-feed-content-heading">
+                                        <h5 class="rating-feed-content-title">Box Cutter</h5>
+                                        <small class="rating-feed-content-sub-title">47min, 2.02GB(1080p HD)</small>
+                                    </div>
+                                    <p class="rating-feed-content-text">
+                                        Walt and Jesse are held captive for Gus, after Gale's death. Meanwhile,
+                                        skyles tries to find out what happened to Walt.
+                                    </p>
+                                </div>
+                                <button class="rating-feed-content-btn">$3.49 HD<i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                            </div>
+        
+                            <div class="rating-feed-section">
+                                <img src="image/hero.png" alt="feed video" class="rating-feed-img">
+                                <div class="rating-feed-content">
+                                    <div class="rating-feed-content-heading">
+                                        <h5 class="rating-feed-content-title">Thirty-Eight Snub</h5>
+                                        <small class="rating-feed-content-sub-title">47min, 2.02GB(1080p HD)</small>
+                                    </div>
+                                    <p class="rating-feed-content-text">
+                                        Walt and Jesse are held captive for Gus, after Gale's death. Meanwhile,
+                                        skyles tries to find out what happened to Walt.
+                                    </p>
+                                </div>
+                                <button class="rating-feed-content-btn">$3.49 HD<i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                            </div>
+        
+                            <div class="rating-feed-section">
+                                <img src="image/hero.png" alt="feed video" class="rating-feed-img">
+                                <div class="rating-feed-content">
+                                    <div class="rating-feed-content-heading">
+                                        <h5 class="rating-feed-content-title">Open House</h5>
+                                        <small class="rating-feed-content-sub-title">47min, 2.02GB(1080p HD)</small>
+                                    </div>
+                                    <p class="rating-feed-content-text">
+                                        Walt and Jesse are held captive for Gus, after Gale's death. Meanwhile,
+                                        skyles tries to find out what happened to Walt.
+                                    </p>
+                                </div>
+                                <button class="rating-feed-content-btn">$3.49 HD<i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-carosal">
+
+                    <div class="card">
+                        <img src="image/pexels-italo-melo-2379005.jpg" alt="melo avatar" class="card-img">
+                        <div class="card-body">
+                            <div class="card-group-btn">
+                                <button class="card-btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                            </div>
+                            <h2 class="card-title">Gus Fring</h2>
+                            <p class="card-text">
+                                Gustavo has a mysterious background, but is supposedly a native of
+                                Chile: he is sometimes referred to by cartel members as "the chilean"
+                            </p>
+                        </div> 
+                    </div>
+
+                    <div class="card">
+                        <img src="image/pexels-snapwire-412840.jpg" alt="avatar image" class="card-img">
+                        <div class="card-body">
+                            <div class="card-group-btn">
+                                <button class="card-btn"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+                                <button class="card-btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></button> 
+                            </div>
+                            <h2 class="card-title">Gus Fring</h2>
+                            <p class="card-text">
+                                Gustavo has a mysterious background, but is supposedly a native of
+                                Chile: he is sometimes referred to by cartel members as "the chilean"
+                            </p>
+                        </div> 
+                    </div>
+
+                    <div class="card">
+                        <img src="image/pexels-linkedin-sales-navigator-2182970.jpg" alt="avatar image 2" class="card-img">
+                        <div class="card-body">
+                            <div class="card-group-btn">
+                                <button class="card-btn"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+                            </div>
+                            <h2 class="card-title">Gus Fring</h2>
+                            <p class="card-text">
+                                Gustavo has a mysterious background, but is supposedly a native of
+                                Chile: he is sometimes referred to by cartel members as "the chilean"
+                            </p>
+                        </div> 
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
