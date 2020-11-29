@@ -1,23 +1,25 @@
 .main {
     overflow-y: scroll;
     overflow-x: hidden;
-    padding: 20px 40px;
+    padding: 2% 2%;
+    width: 80vw;
     .option-bar {
         display: flex;
         align-items: center;
-        padding: 20px 0;
+        padding: 2% 0;
         .dropdown-category {
             &-btn {
                 color: $title-muted;
-                padding-right: 30px;
+                font-size: 1vw;
+                padding-right: 1.4vw;
                 i {
-                    padding-left: 8px;
+                    padding-left: 0.3vw;
                 }
             }
             &-menu {
                 display: none;
                 .dropdown-category-item {
-                    padding: 10px 0;
+                    padding: 3% 0;
                     .dropdown-category-link {
                         color: $text-muted;
                     }
@@ -27,14 +29,15 @@
         .dropdown-year {
             &-btn {
                 color: $title-muted;
+                font-size: 1vw;
                 i {
-                    padding-left: 8px;
+                    padding-left: 0.3vw;
                 }
             }
             &-menu {
                 display: none;
                 .dropdown-year-item {
-                    padding: 10px 0;
+                    padding: 3% 0;
                     .dropdown-year-link {
                         color: $text-muted;
                     }
@@ -43,11 +46,13 @@
         }
         &-form {
             .option-bar-input {
-                padding: 10px 110px;
+                padding: 3% 17%;
+                width: 18vw;
                 border-radius: 50px;
                 border-color: rgba(0, 0, 0, 0.24);
                 outline: none;
-                margin-left: 350px;
+                margin-left: 150%;
+                font-size: 0.9vw;
             }
         }
     }
@@ -56,19 +61,21 @@
 
     .hero {
         display: flex;
-        padding: 20px 0;
+        padding: 3% 0;
         &-img {
-            width: 800px;
+            width: 50vw;
+            height: 50vh;
             border-radius: 10px;
         }
         .hero-conent {
-            padding: 50px 0 0 50px;
+            padding: 1% 0 0 3%;
             .hero-title {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
                 color: $title-muted;
-                padding-bottom: 10px;
+                padding-bottom: 2%;
+                font-size: 1.3vw;
                 .hero-rating {
                     .hero-rating-highlight {
                         color: rgba(0, 0, 255, 0.774);
@@ -76,14 +83,15 @@
                 }
             }
             .hero-sub-title {
+                font-size: 0.8vw;
                 color: $text-muted;
             }
             .hero-text {
                 color: $text-muted;
-                padding-top: 30px;
-                padding-bottom: 30px;
-                font-size: 14px;
-                line-height: 20px;
+                padding-top: 5%;
+                padding-bottom: 7%;
+                font-size: 1vw;
+                line-height: 140%;
                 .dot {
 
                 }
@@ -102,8 +110,8 @@
         .hero-dropdown {
             &-btn {
                 border: 1px solid $text-muted;
-                padding: 10px 15px;
-                font-size: 11px;
+                padding: 3% 4%;
+                font-size: 0.8vw;
                 color: $title-muted;
                 font-weight: 600;
                 border-radius: 3px;
@@ -115,7 +123,7 @@
                     .hero-dropdown-link {
                         color: $title-muted;
                         font-weight: 600;
-                        font-size: 11px;
+                        font-size: 0.8vw;
                     }
                 }
             }
@@ -125,15 +133,17 @@
         display: flex;
         .season {
             &-img {
-                width: 275px;
-                padding: 0 10px;
+                width: 19vw;
+                height: 19vh;
+                padding: 0 3%;
                 border-radius: 15px;
             }
             &-title {
                 color: $font-white;
+                font-size: 1vw;
                 position: relative;
-                top: -40px;
-                left: 30px;
+                top: -25%;
+                left: 10%;
             }
         }
     }
@@ -141,12 +151,12 @@
         display: flex;
         .feed {
             .feed-header-menu {
-                padding: 20px 0 0 0;
+                padding: 5% 0 0 0;
                 .feed-title {
-                    padding-right: 20px;
+                    padding-right: 4%;
                     color: $title-muted;
                     font-weight: 600;
-                    font-size: 15px;
+                    font-size: 1vw;
                 }
             }
             .container-episode-rating {
@@ -155,45 +165,46 @@
                     &-section {
                         display: flex;
                         align-items: center;
-                        padding: 20px 0;
+                        padding: 2% 0;
                         .episode-feed-img {
-                            width: 130px;
-                            height: 65px;
+                            width: 9vw;
+                            height: 9vh;
                             border-radius: 5px;
                         }
                         .episode-feed-content {
-                            padding-left: 30px;
+                            padding-left: 3%;
                             .feed-content-heading {
                                 display: flex;
                                 .feed-content-title {
                                     color: $title-muted;
-                                    padding-right: 20px;
+                                    padding-right: 3%;
+                                    font-size: 1vw;
                                 }
                                 .feed-content-sub-title {
                                     color: $text-muted;
-                                    font-size: 12px;
+                                    font-size: 0.7vw;
                                 }
                             }
                             .feed-content-text {
                                 color: $text-muted;
-                                font-size: 13px;
-                                width: 450px;
-                                padding-top: 10px;
+                                font-size: 0.9vw;
+                                width: 30vw;
+                                padding-top: 3%;
                             }
                         }
                         .feed-content-btn {
                             background-color: transparent;
                             outline: none;
-                            width: 110px;
-                            height: 40px;
+                            width: 9vw;
+                            height: 6vh;
                             border-radius: 5px;
                             color: $title-muted;
                             font-family: 'Roboto', sans-serif;
                             font-weight: 600;
-                            font-size: 10px;
-                            margin: 0 40px;
+                            font-size: 0.8vw;
+                            margin: 0 2vw;
                             i {
-                                padding-left: 10px;
+                                padding-left: 1%;
                                 font-weight: 600;
                             }
                         }
@@ -204,45 +215,46 @@
                     &-section {
                         display: flex;
                         align-items: center;
-                        padding: 20px 0;
+                        padding: 2% 0;
                         .rating-feed-img {
-                            width: 130px;
-                            height: 65px;
+                            width: 9vw;
+                            height: 9vh;
                             border-radius: 5px;
                         }
                         .rating-feed-content {
-                            padding-left: 30px;
+                            padding-left: 3%;
                             .rating-feed-content-heading {
                                 display: flex;
                                 .rating-feed-content-title {
                                     color: $title-muted;
-                                    padding-right: 20px;
+                                    padding-right: 3%;
+                                    font-size: 1vw;
                                 }
                                 .rating-feed-content-sub-title {
                                     color: $text-muted;
-                                    font-size: 12px;
+                                    font-size: 0.7vw;
                                 }
                             }
                             .rating-feed-content-text {
                                 color: $text-muted;
-                                font-size: 13px;
-                                width: 450px;
-                                padding-top: 10px;
+                                font-size: 0.9vw;
+                                width: 30vw;
+                                padding-top: 3%;
                             }
                         }
                         .rating-feed-content-btn {
                             background-color: transparent;
                             outline: none;
-                            width: 110px;
-                            height: 40px;
+                            width: 9vw;
+                            height: 6vh;
                             border-radius: 5px;
                             color: $title-muted;
                             font-family: 'Roboto', sans-serif;
                             font-weight: 600;
-                            font-size: 10px;
-                            margin: 0 40px;
+                            font-size: 0.8vw;
+                            margin: 0 2vw;
                             i {
-                                padding-left: 10px;
+                                padding-left: 1%;
                                 font-weight: 600;
                             }
                         }
@@ -258,31 +270,35 @@
             }
             .card {
                 &-img {
-                    width: 350px;
-                    height: 450px;
+                    width: 23vw;
+                    height: 63vh;
                     border-radius: 10px;
                 }
                 .card-body {
-                    margin-top: -200px;
-                    width: 350px;
+                    margin-top: -50%;
+                    width: 22vw;
                     color: $font-white;
-                    padding-left: 30px;
+                    padding-left: 6%;
                     .card-group-btn {
                         position: relative;
-                        top: -200px;
-                        left: 270px;
+                        top: -15vw;
+                        left: 18vw;
                         .card-btn {
                             border: none;
                             background-color: transparent;
                             outline: none;
                             color: $font-white;
+                            font-size: 1vw;
                         }
                     }
+                    .card-title {
+                        font-size: 1.2vw;
+                    }
                     .card-text {
-                        font-size: 13px;
-                        width: 250px;
-                        line-height: 20px;
-                        padding-top: 30px;
+                        font-size: 0.9vw;
+                        width: 18vw;
+                        line-height: 135%;
+                        padding-top: 5%;
                     }
                 }
             }

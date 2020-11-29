@@ -1,23 +1,25 @@
 .sidebar {
-    padding: 20px 30px;
+    padding: 2% 2%;
     color: $font-white;
+    width: 20vw;
     height: 100vh;
     &-brand {
         display: flex;
-        padding: 20px 0;
+        padding: 4% 0;
         .avator {
-            width: 40px;
-            height: 40px;
-            padding-right: 20px;
+            width: 4vw;
+            height: 2.9vw;
+            padding-right: 1vw;
         }
         .avator-content {
-            padding-top: 5px;
+            padding-top: 2%;
             .avator-title {
                 font-weight: 100;
+                font-size: 1vw;
             }
             .avator-sub-title {
                 font-weight: 500;
-                font-size: 13px;
+                font-size: 0.8vw;
             }
         }
     }
@@ -26,24 +28,24 @@
     }
     &-nav {
         .nav-media {
-            padding: 25px 15px;
+            padding: 8% 5%;
 
             &-title {
-                font-size: 10px;
+                font-size: 0.6vw;
                 opacity: 0.5;
                 color: $font-white;
-                padding: 15px 0;
+                padding: 7% 0;
             }
             .nav-item {
-                padding: 10px 0;
+                padding: 4% 0;
                 .nav-link {
                     color: $font-white;
-
+                    font-size: 1vw;
                     .nav-badge {
                         background-color: $font-white;
-                        padding: 5px 10px;
+                        padding: 2% 4%;
                         border-radius: 50%;
-                        margin-left: 60px;
+                        margin-left: 20%;
                         color: black;
                     }
                 }
@@ -51,18 +53,19 @@
         }
     }
     .nav-account {
-        padding: 25px 15px;
+        padding: 8% 5%;
 
         &-title {
-            font-size: 10px;
+            font-size: 0.6vw;
             opacity: 0.5;
             color: $font-white;
-            padding: 15px 0;
+            padding: 7% 0;
         }
         .nav-item {
-            padding: 10px 0;
+            padding: 4% 0;
             .nav-link {
                 color: $font-white;
+                font-size: 1vw;
             }
         }
     }
@@ -72,7 +75,7 @@
         color: $font-white;
         font-weight: 500;
         font-family: 'Roboto', sans-serif;
-        font-size: 14px;
-        margin: 70px 0 0 17px;
+        font-size: 1vw;
+        margin: 40% 0 0 8%;
     }
 }

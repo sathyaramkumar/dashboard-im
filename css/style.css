@@ -1,6 +1,7 @@
 .sidebar {
-  padding: 20px 30px;
+  padding: 2% 2%;
   color: white;
+  width: 20vw;
   height: 100vh;
 }
 
@@ -8,26 +9,27 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px 0;
+  padding: 4% 0;
 }
 
 .sidebar-brand .avator {
-  width: 40px;
-  height: 40px;
-  padding-right: 20px;
+  width: 4vw;
+  height: 2.9vw;
+  padding-right: 1vw;
 }
 
 .sidebar-brand .avator-content {
-  padding-top: 5px;
+  padding-top: 2%;
 }
 
 .sidebar-brand .avator-content .avator-title {
   font-weight: 100;
+  font-size: 1vw;
 }
 
 .sidebar-brand .avator-content .avator-sub-title {
   font-weight: 500;
-  font-size: 13px;
+  font-size: 0.8vw;
 }
 
 .sidebar hr {
@@ -35,49 +37,51 @@
 }
 
 .sidebar-nav .nav-media {
-  padding: 25px 15px;
+  padding: 8% 5%;
 }
 
 .sidebar-nav .nav-media-title {
-  font-size: 10px;
+  font-size: 0.6vw;
   opacity: 0.5;
   color: white;
-  padding: 15px 0;
+  padding: 7% 0;
 }
 
 .sidebar-nav .nav-media .nav-item {
-  padding: 10px 0;
+  padding: 4% 0;
 }
 
 .sidebar-nav .nav-media .nav-item .nav-link {
   color: white;
+  font-size: 1vw;
 }
 
 .sidebar-nav .nav-media .nav-item .nav-link .nav-badge {
   background-color: white;
-  padding: 5px 10px;
+  padding: 2% 4%;
   border-radius: 50%;
-  margin-left: 60px;
+  margin-left: 20%;
   color: black;
 }
 
 .sidebar .nav-account {
-  padding: 25px 15px;
+  padding: 8% 5%;
 }
 
 .sidebar .nav-account-title {
-  font-size: 10px;
+  font-size: 0.6vw;
   opacity: 0.5;
   color: white;
-  padding: 15px 0;
+  padding: 7% 0;
 }
 
 .sidebar .nav-account .nav-item {
-  padding: 10px 0;
+  padding: 4% 0;
 }
 
 .sidebar .nav-account .nav-item .nav-link {
   color: white;
+  font-size: 1vw;
 }
 
 .sidebar-btn {
@@ -86,11 +90,18 @@
   color: white;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  margin: 70px 0 0 17px;
+  font-size: 1vw;
+  margin: 40% 0 0 8%;
 }
 
 * {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before, *::after {
   padding: 0;
   margin: 0;
 }
@@ -132,8 +143,6 @@ body {
 
 .sidebar {
   background-color: transparent;
-  -ms-flex-preferred-size: 45%;
-      flex-basis: 45%;
 }
 
 .main {
@@ -145,7 +154,8 @@ body {
 .main {
   overflow-y: scroll;
   overflow-x: hidden;
-  padding: 20px 40px;
+  padding: 2% 2%;
+  width: 80vw;
 }
 
 .main .option-bar {
@@ -155,16 +165,17 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 0;
+  padding: 2% 0;
 }
 
 .main .option-bar .dropdown-category-btn {
   color: rgba(0, 0, 0, 0.712);
-  padding-right: 30px;
+  font-size: 1vw;
+  padding-right: 1.4vw;
 }
 
 .main .option-bar .dropdown-category-btn i {
-  padding-left: 8px;
+  padding-left: 0.3vw;
 }
 
 .main .option-bar .dropdown-category-menu {
@@ -172,7 +183,7 @@ body {
 }
 
 .main .option-bar .dropdown-category-menu .dropdown-category-item {
-  padding: 10px 0;
+  padding: 3% 0;
 }
 
 .main .option-bar .dropdown-category-menu .dropdown-category-item .dropdown-category-link {
@@ -181,10 +192,11 @@ body {
 
 .main .option-bar .dropdown-year-btn {
   color: rgba(0, 0, 0, 0.712);
+  font-size: 1vw;
 }
 
 .main .option-bar .dropdown-year-btn i {
-  padding-left: 8px;
+  padding-left: 0.3vw;
 }
 
 .main .option-bar .dropdown-year-menu {
@@ -192,7 +204,7 @@ body {
 }
 
 .main .option-bar .dropdown-year-menu .dropdown-year-item {
-  padding: 10px 0;
+  padding: 3% 0;
 }
 
 .main .option-bar .dropdown-year-menu .dropdown-year-item .dropdown-year-link {
@@ -200,27 +212,30 @@ body {
 }
 
 .main .option-bar-form .option-bar-input {
-  padding: 10px 110px;
+  padding: 3% 17%;
+  width: 18vw;
   border-radius: 50px;
   border-color: rgba(0, 0, 0, 0.24);
   outline: none;
-  margin-left: 350px;
+  margin-left: 150%;
+  font-size: 0.9vw;
 }
 
 .main .hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px 0;
+  padding: 3% 0;
 }
 
 .main .hero-img {
-  width: 800px;
+  width: 50vw;
+  height: 50vh;
   border-radius: 10px;
 }
 
 .main .hero .hero-conent {
-  padding: 50px 0 0 50px;
+  padding: 1% 0 0 3%;
 }
 
 .main .hero .hero-conent .hero-title {
@@ -235,7 +250,8 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   color: rgba(0, 0, 0, 0.712);
-  padding-bottom: 10px;
+  padding-bottom: 2%;
+  font-size: 1.3vw;
 }
 
 .main .hero .hero-conent .hero-title .hero-rating .hero-rating-highlight {
@@ -243,15 +259,16 @@ body {
 }
 
 .main .hero .hero-conent .hero-sub-title {
+  font-size: 0.8vw;
   color: rgba(0, 0, 0, 0.452);
 }
 
 .main .hero .hero-conent .hero-text {
   color: rgba(0, 0, 0, 0.452);
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-size: 14px;
-  line-height: 20px;
+  padding-top: 5%;
+  padding-bottom: 7%;
+  font-size: 1vw;
+  line-height: 140%;
 }
 
 .main .hero .hero-conent .hero-text .read-more {
@@ -268,8 +285,8 @@ body {
 
 .main .hero .hero-dropdown-btn {
   border: 1px solid rgba(0, 0, 0, 0.452);
-  padding: 10px 15px;
-  font-size: 11px;
+  padding: 3% 4%;
+  font-size: 0.8vw;
   color: rgba(0, 0, 0, 0.712);
   font-weight: 600;
   border-radius: 3px;
@@ -286,7 +303,7 @@ body {
 .main .hero .hero-dropdown-menu .hero-dropdown-item .hero-dropdown-link {
   color: rgba(0, 0, 0, 0.712);
   font-weight: 600;
-  font-size: 11px;
+  font-size: 0.8vw;
 }
 
 .main .other-seasons {
@@ -296,16 +313,18 @@ body {
 }
 
 .main .other-seasons .season-img {
-  width: 275px;
-  padding: 0 10px;
+  width: 19vw;
+  height: 19vh;
+  padding: 0 3%;
   border-radius: 15px;
 }
 
 .main .other-seasons .season-title {
   color: white;
+  font-size: 1vw;
   position: relative;
-  top: -40px;
-  left: 30px;
+  top: -25%;
+  left: 10%;
 }
 
 .main .feeds-profiles {
@@ -315,14 +334,14 @@ body {
 }
 
 .main .feeds-profiles .feed .feed-header-menu {
-  padding: 20px 0 0 0;
+  padding: 5% 0 0 0;
 }
 
 .main .feeds-profiles .feed .feed-header-menu .feed-title {
-  padding-right: 20px;
+  padding-right: 4%;
   color: rgba(0, 0, 0, 0.712);
   font-weight: 600;
-  font-size: 15px;
+  font-size: 1vw;
 }
 
 .main .feeds-profiles .feed .container-episode-rating {
@@ -338,17 +357,17 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 0;
+  padding: 2% 0;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .episode-feed-section .episode-feed-img {
-  width: 130px;
-  height: 65px;
+  width: 9vw;
+  height: 9vh;
   border-radius: 5px;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .episode-feed-section .episode-feed-content {
-  padding-left: 30px;
+  padding-left: 3%;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .episode-feed-section .episode-feed-content .feed-content-heading {
@@ -359,36 +378,37 @@ body {
 
 .main .feeds-profiles .feed .container-episode-rating .episode-feed-section .episode-feed-content .feed-content-heading .feed-content-title {
   color: rgba(0, 0, 0, 0.712);
-  padding-right: 20px;
+  padding-right: 3%;
+  font-size: 1vw;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .episode-feed-section .episode-feed-content .feed-content-heading .feed-content-sub-title {
   color: rgba(0, 0, 0, 0.452);
-  font-size: 12px;
+  font-size: 0.7vw;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .episode-feed-section .episode-feed-content .feed-content-text {
   color: rgba(0, 0, 0, 0.452);
-  font-size: 13px;
-  width: 450px;
-  padding-top: 10px;
+  font-size: 0.9vw;
+  width: 30vw;
+  padding-top: 3%;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .episode-feed-section .feed-content-btn {
   background-color: transparent;
   outline: none;
-  width: 110px;
-  height: 40px;
+  width: 9vw;
+  height: 6vh;
   border-radius: 5px;
   color: rgba(0, 0, 0, 0.712);
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
-  font-size: 10px;
-  margin: 0 40px;
+  font-size: 0.8vw;
+  margin: 0 2vw;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .episode-feed-section .feed-content-btn i {
-  padding-left: 10px;
+  padding-left: 1%;
   font-weight: 600;
 }
 
@@ -403,17 +423,17 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 0;
+  padding: 2% 0;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .rating-feed-section .rating-feed-img {
-  width: 130px;
-  height: 65px;
+  width: 9vw;
+  height: 9vh;
   border-radius: 5px;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .rating-feed-section .rating-feed-content {
-  padding-left: 30px;
+  padding-left: 3%;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .rating-feed-section .rating-feed-content .rating-feed-content-heading {
@@ -424,36 +444,37 @@ body {
 
 .main .feeds-profiles .feed .container-episode-rating .rating-feed-section .rating-feed-content .rating-feed-content-heading .rating-feed-content-title {
   color: rgba(0, 0, 0, 0.712);
-  padding-right: 20px;
+  padding-right: 3%;
+  font-size: 1vw;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .rating-feed-section .rating-feed-content .rating-feed-content-heading .rating-feed-content-sub-title {
   color: rgba(0, 0, 0, 0.452);
-  font-size: 12px;
+  font-size: 0.7vw;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .rating-feed-section .rating-feed-content .rating-feed-content-text {
   color: rgba(0, 0, 0, 0.452);
-  font-size: 13px;
-  width: 450px;
-  padding-top: 10px;
+  font-size: 0.9vw;
+  width: 30vw;
+  padding-top: 3%;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .rating-feed-section .rating-feed-content-btn {
   background-color: transparent;
   outline: none;
-  width: 110px;
-  height: 40px;
+  width: 9vw;
+  height: 6vh;
   border-radius: 5px;
   color: rgba(0, 0, 0, 0.712);
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
-  font-size: 10px;
-  margin: 0 40px;
+  font-size: 0.8vw;
+  margin: 0 2vw;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .rating-feed-section .rating-feed-content-btn i {
-  padding-left: 10px;
+  padding-left: 1%;
   font-weight: 600;
 }
 
@@ -469,22 +490,22 @@ body {
 }
 
 .main .feeds-profiles .card-carosal .card-img {
-  width: 350px;
-  height: 450px;
+  width: 23vw;
+  height: 63vh;
   border-radius: 10px;
 }
 
 .main .feeds-profiles .card-carosal .card .card-body {
-  margin-top: -200px;
-  width: 350px;
+  margin-top: -50%;
+  width: 22vw;
   color: white;
-  padding-left: 30px;
+  padding-left: 6%;
 }
 
 .main .feeds-profiles .card-carosal .card .card-body .card-group-btn {
   position: relative;
-  top: -200px;
-  left: 270px;
+  top: -15vw;
+  left: 18vw;
 }
 
 .main .feeds-profiles .card-carosal .card .card-body .card-group-btn .card-btn {
@@ -492,13 +513,18 @@ body {
   background-color: transparent;
   outline: none;
   color: white;
+  font-size: 1vw;
+}
+
+.main .feeds-profiles .card-carosal .card .card-body .card-title {
+  font-size: 1.2vw;
 }
 
 .main .feeds-profiles .card-carosal .card .card-body .card-text {
-  font-size: 13px;
-  width: 250px;
-  line-height: 20px;
-  padding-top: 30px;
+  font-size: 0.9vw;
+  width: 18vw;
+  line-height: 135%;
+  padding-top: 5%;
 }
 
 .main .feeds-profiles .card-carosal .card:nth-child(3) {
