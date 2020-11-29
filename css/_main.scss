@@ -1,25 +1,25 @@
 .main {
     overflow-y: scroll;
     overflow-x: hidden;
-    padding: 2% 2%;
+    padding: 0.625rem 1.875rem;
     width: 80vw;
     .option-bar {
         display: flex;
         align-items: center;
-        padding: 2% 0;
+        padding: 1.25rem 0;
         .dropdown-category {
             &-btn {
                 color: $title-muted;
-                font-size: 1vw;
-                padding-right: 1.4vw;
+                font-size: 0.9375rem;
+                padding-right: 1.25rem;
                 i {
-                    padding-left: 0.3vw;
+                    padding-left: 0.625rem;
                 }
             }
             &-menu {
                 display: none;
                 .dropdown-category-item {
-                    padding: 3% 0;
+                    padding: 0.625rem 0;
                     .dropdown-category-link {
                         color: $text-muted;
                     }
@@ -29,15 +29,15 @@
         .dropdown-year {
             &-btn {
                 color: $title-muted;
-                font-size: 1vw;
+                font-size: 0.8125rem;
                 i {
-                    padding-left: 0.3vw;
+                    padding-left: 0.625rem;
                 }
             }
             &-menu {
                 display: none;
                 .dropdown-year-item {
-                    padding: 3% 0;
+                    padding: 0.625rem 0;
                     .dropdown-year-link {
                         color: $text-muted;
                     }
@@ -46,13 +46,13 @@
         }
         &-form {
             .option-bar-input {
-                padding: 3% 17%;
+                padding: 0.625rem 3.125rem;
                 width: 18vw;
                 border-radius: 50px;
-                border-color: rgba(0, 0, 0, 0.24);
+                border: 1px solid rgba(0, 0, 0, 0.37);
                 outline: none;
-                margin-left: 150%;
-                font-size: 0.9vw;
+                margin-left: 25rem;
+                font-size: 13px;
             }
         }
     }
@@ -61,21 +61,21 @@
 
     .hero {
         display: flex;
-        padding: 3% 0;
+        padding: 1.25rem 0;
         &-img {
             width: 50vw;
             height: 50vh;
             border-radius: 10px;
         }
         .hero-conent {
-            padding: 1% 0 0 3%;
+            padding: 0.625rem 0 0 1.875rem;
             .hero-title {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
                 color: $title-muted;
-                padding-bottom: 2%;
-                font-size: 1.3vw;
+                padding-bottom: 0.625rem;
+                font-size: 0.9375rem;
                 .hero-rating {
                     .hero-rating-highlight {
                         color: rgba(0, 0, 255, 0.774);
@@ -83,35 +83,37 @@
                 }
             }
             .hero-sub-title {
-                font-size: 0.8vw;
+                font-size: 0.75rem;
                 color: $text-muted;
             }
             .hero-text {
                 color: $text-muted;
-                padding-top: 5%;
-                padding-bottom: 7%;
-                font-size: 1vw;
-                line-height: 140%;
+                padding-top: 0.625rem;
+                padding-bottom: 1.875rem;
+                font-size: 0.875rem;
+                line-height: 1.25rem;
+                width: 420px;
                 .dot {
 
                 }
                 .read-more {
                     display: none;
                 }
-                .check-more {
-                    border: none;
-                    outline: none;
-                    background-color: transparent;
-                    color: blue;
-                    font-family: 'Roboto', sans-serif;
-                }
+                .check-more {}
+            }
+            .check-more {
+                border: none;
+                outline: none;
+                background-color: transparent;
+                color: blue;
+                font-family: 'Roboto', sans-serif;
             }
         }
         .hero-dropdown {
             &-btn {
                 border: 1px solid $text-muted;
-                padding: 3% 4%;
-                font-size: 0.8vw;
+                padding: 0.625rem 0.9375rem;
+                font-size: 0.75rem;
                 color: $title-muted;
                 font-weight: 600;
                 border-radius: 3px;
@@ -119,11 +121,11 @@
             &-menu {
                 display: none;
                 .hero-dropdown-item {
-                    padding: 10px;
+                    padding: 0.625rem;
                     .hero-dropdown-link {
                         color: $title-muted;
                         font-weight: 600;
-                        font-size: 0.8vw;
+                        font-size: 0.75rem;
                     }
                 }
             }
@@ -135,12 +137,12 @@
             &-img {
                 width: 19vw;
                 height: 19vh;
-                padding: 0 3%;
+                padding: 0 0.625rem;
                 border-radius: 15px;
             }
             &-title {
                 color: $font-white;
-                font-size: 1vw;
+                font-size: 0.875rem;
                 position: relative;
                 top: -25%;
                 left: 10%;
@@ -153,10 +155,10 @@
             .feed-header-menu {
                 padding: 5% 0 0 0;
                 .feed-title {
-                    padding-right: 4%;
+                    padding-right: 0.625rem;
                     color: $title-muted;
                     font-weight: 600;
-                    font-size: 1vw;
+                    font-size: 0.9375rem;
                 }
             }
             .container-episode-rating {
@@ -165,31 +167,31 @@
                     &-section {
                         display: flex;
                         align-items: center;
-                        padding: 2% 0;
+                        padding: 1.25rem 0;
                         .episode-feed-img {
                             width: 9vw;
                             height: 9vh;
                             border-radius: 5px;
                         }
                         .episode-feed-content {
-                            padding-left: 3%;
+                            padding-left: 0.9375rem;
                             .feed-content-heading {
                                 display: flex;
                                 .feed-content-title {
                                     color: $title-muted;
-                                    padding-right: 3%;
-                                    font-size: 1vw;
+                                    padding-right: 0.625rem;
+                                    font-size: 0.75rem;
                                 }
                                 .feed-content-sub-title {
                                     color: $text-muted;
-                                    font-size: 0.7vw;
+                                    font-size: 0.625rem;
                                 }
                             }
                             .feed-content-text {
                                 color: $text-muted;
-                                font-size: 0.9vw;
+                                font-size: 0.8125rem;
                                 width: 30vw;
-                                padding-top: 3%;
+                                padding-top: 0.625rem;
                             }
                         }
                         .feed-content-btn {
@@ -197,14 +199,15 @@
                             outline: none;
                             width: 9vw;
                             height: 6vh;
+                            border: 1px solid rgba(0, 0, 0, 0.37);
                             border-radius: 5px;
                             color: $title-muted;
                             font-family: 'Roboto', sans-serif;
                             font-weight: 600;
-                            font-size: 0.8vw;
-                            margin: 0 2vw;
+                            font-size: 0.75rem;
+                            margin: 0 1.25rem;
                             i {
-                                padding-left: 1%;
+                                padding-left: 0.625rem;
                                 font-weight: 600;
                             }
                         }
@@ -215,31 +218,31 @@
                     &-section {
                         display: flex;
                         align-items: center;
-                        padding: 2% 0;
+                        padding: 1.25rem 0;
                         .rating-feed-img {
                             width: 9vw;
                             height: 9vh;
                             border-radius: 5px;
                         }
                         .rating-feed-content {
-                            padding-left: 3%;
+                            padding-left: 0.9375rem;
                             .rating-feed-content-heading {
                                 display: flex;
                                 .rating-feed-content-title {
                                     color: $title-muted;
-                                    padding-right: 3%;
-                                    font-size: 1vw;
+                                    padding-right: 0.625rem;
+                                    font-size: 0.75rem;
                                 }
                                 .rating-feed-content-sub-title {
                                     color: $text-muted;
-                                    font-size: 0.7vw;
+                                    font-size: 0.625rem;
                                 }
                             }
                             .rating-feed-content-text {
                                 color: $text-muted;
-                                font-size: 0.9vw;
+                                font-size: 0.8125rem;
                                 width: 30vw;
-                                padding-top: 3%;
+                                padding-top: 0.625rem;
                             }
                         }
                         .rating-feed-content-btn {
@@ -247,14 +250,15 @@
                             outline: none;
                             width: 9vw;
                             height: 6vh;
+                            border: 1px solid rgba(0, 0, 0, 0.37);
                             border-radius: 5px;
                             color: $title-muted;
                             font-family: 'Roboto', sans-serif;
                             font-weight: 600;
-                            font-size: 0.8vw;
-                            margin: 0 2vw;
+                            font-size: 0.75rem;
+                            margin: 0 1.25rem;
                             i {
-                                padding-left: 1%;
+                                padding-left: 0.625rem;
                                 font-weight: 600;
                             }
                         }
@@ -275,10 +279,10 @@
                     border-radius: 10px;
                 }
                 .card-body {
-                    margin-top: -50%;
+                    margin-top: -9.375rem;
                     width: 22vw;
                     color: $font-white;
-                    padding-left: 6%;
+                    padding-left: 1.25rem;
                     .card-group-btn {
                         position: relative;
                         top: -15vw;
@@ -288,17 +292,17 @@
                             background-color: transparent;
                             outline: none;
                             color: $font-white;
-                            font-size: 1vw;
+                            font-size: 0.9375rem;
                         }
                     }
                     .card-title {
-                        font-size: 1.2vw;
+                        font-size: 0.875rem;
                     }
                     .card-text {
-                        font-size: 0.9vw;
+                        font-size: 0.875rem;
                         width: 18vw;
                         line-height: 135%;
-                        padding-top: 5%;
+                        padding-top: 0.625rem;
                     }
                 }
             }

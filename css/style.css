@@ -1,5 +1,5 @@
 .sidebar {
-  padding: 2% 2%;
+  padding: 1.25rem 1.25rem;
   color: white;
   width: 20vw;
   height: 100vh;
@@ -9,27 +9,27 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 4% 0;
+  padding: 0.625rem 0;
 }
 
 .sidebar-brand .avator {
   width: 4vw;
   height: 2.9vw;
-  padding-right: 1vw;
+  padding-right: 1.25rem;
 }
 
 .sidebar-brand .avator-content {
-  padding-top: 2%;
+  padding-top: 0.3125rem;
 }
 
 .sidebar-brand .avator-content .avator-title {
   font-weight: 100;
-  font-size: 1vw;
+  font-size: 0.9375rem;
 }
 
 .sidebar-brand .avator-content .avator-sub-title {
   font-weight: 500;
-  font-size: 0.8vw;
+  font-size: 0.75rem;
 }
 
 .sidebar hr {
@@ -37,51 +37,51 @@
 }
 
 .sidebar-nav .nav-media {
-  padding: 8% 5%;
+  padding: 0.625rem 0.625rem;
 }
 
 .sidebar-nav .nav-media-title {
-  font-size: 0.6vw;
+  font-size: 0.625rem;
   opacity: 0.5;
   color: white;
-  padding: 7% 0;
+  padding: 0.625rem 0;
 }
 
 .sidebar-nav .nav-media .nav-item {
-  padding: 4% 0;
+  padding: 0.625rem 0;
 }
 
 .sidebar-nav .nav-media .nav-item .nav-link {
   color: white;
-  font-size: 1vw;
+  font-size: 1.0625rem;
 }
 
 .sidebar-nav .nav-media .nav-item .nav-link .nav-badge {
   background-color: white;
-  padding: 2% 4%;
+  padding: 0.3125rem 0.625rem;
   border-radius: 50%;
-  margin-left: 20%;
+  margin-left: 3.265rem;
   color: black;
 }
 
 .sidebar .nav-account {
-  padding: 8% 5%;
+  padding: 0.9375rem 0.625rem;
 }
 
 .sidebar .nav-account-title {
-  font-size: 0.6vw;
+  font-size: 0.625rem;
   opacity: 0.5;
   color: white;
-  padding: 7% 0;
+  padding: 0.75rem 0;
 }
 
 .sidebar .nav-account .nav-item {
-  padding: 4% 0;
+  padding: 0.625rem 0;
 }
 
 .sidebar .nav-account .nav-item .nav-link {
   color: white;
-  font-size: 1vw;
+  font-size: 1.0625rem;
 }
 
 .sidebar-btn {
@@ -90,8 +90,8 @@
   color: white;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
-  font-size: 1vw;
-  margin: 40% 0 0 8%;
+  margin: 8.75rem 0 0 0.75rem;
+  font-size: 0.9375rem;
 }
 
 * {
@@ -154,7 +154,7 @@ body {
 .main {
   overflow-y: scroll;
   overflow-x: hidden;
-  padding: 2% 2%;
+  padding: 0.625rem 1.875rem;
   width: 80vw;
 }
 
@@ -165,17 +165,17 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2% 0;
+  padding: 1.25rem 0;
 }
 
 .main .option-bar .dropdown-category-btn {
   color: rgba(0, 0, 0, 0.712);
-  font-size: 1vw;
-  padding-right: 1.4vw;
+  font-size: 0.9375rem;
+  padding-right: 1.25rem;
 }
 
 .main .option-bar .dropdown-category-btn i {
-  padding-left: 0.3vw;
+  padding-left: 0.625rem;
 }
 
 .main .option-bar .dropdown-category-menu {
@@ -183,7 +183,7 @@ body {
 }
 
 .main .option-bar .dropdown-category-menu .dropdown-category-item {
-  padding: 3% 0;
+  padding: 0.625rem 0;
 }
 
 .main .option-bar .dropdown-category-menu .dropdown-category-item .dropdown-category-link {
@@ -192,11 +192,11 @@ body {
 
 .main .option-bar .dropdown-year-btn {
   color: rgba(0, 0, 0, 0.712);
-  font-size: 1vw;
+  font-size: 0.8125rem;
 }
 
 .main .option-bar .dropdown-year-btn i {
-  padding-left: 0.3vw;
+  padding-left: 0.625rem;
 }
 
 .main .option-bar .dropdown-year-menu {
@@ -204,7 +204,7 @@ body {
 }
 
 .main .option-bar .dropdown-year-menu .dropdown-year-item {
-  padding: 3% 0;
+  padding: 0.625rem 0;
 }
 
 .main .option-bar .dropdown-year-menu .dropdown-year-item .dropdown-year-link {
@@ -212,20 +212,20 @@ body {
 }
 
 .main .option-bar-form .option-bar-input {
-  padding: 3% 17%;
+  padding: 0.625rem 3.125rem;
   width: 18vw;
   border-radius: 50px;
-  border-color: rgba(0, 0, 0, 0.24);
+  border: 1px solid rgba(0, 0, 0, 0.37);
   outline: none;
-  margin-left: 150%;
-  font-size: 0.9vw;
+  margin-left: 25rem;
+  font-size: 13px;
 }
 
 .main .hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 3% 0;
+  padding: 1.25rem 0;
 }
 
 .main .hero-img {
@@ -235,7 +235,7 @@ body {
 }
 
 .main .hero .hero-conent {
-  padding: 1% 0 0 3%;
+  padding: 0.625rem 0 0 1.875rem;
 }
 
 .main .hero .hero-conent .hero-title {
@@ -250,8 +250,8 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   color: rgba(0, 0, 0, 0.712);
-  padding-bottom: 2%;
-  font-size: 1.3vw;
+  padding-bottom: 0.625rem;
+  font-size: 0.9375rem;
 }
 
 .main .hero .hero-conent .hero-title .hero-rating .hero-rating-highlight {
@@ -259,23 +259,24 @@ body {
 }
 
 .main .hero .hero-conent .hero-sub-title {
-  font-size: 0.8vw;
+  font-size: 0.75rem;
   color: rgba(0, 0, 0, 0.452);
 }
 
 .main .hero .hero-conent .hero-text {
   color: rgba(0, 0, 0, 0.452);
-  padding-top: 5%;
-  padding-bottom: 7%;
-  font-size: 1vw;
-  line-height: 140%;
+  padding-top: 0.625rem;
+  padding-bottom: 1.875rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 420px;
 }
 
 .main .hero .hero-conent .hero-text .read-more {
   display: none;
 }
 
-.main .hero .hero-conent .hero-text .check-more {
+.main .hero .hero-conent .check-more {
   border: none;
   outline: none;
   background-color: transparent;
@@ -285,8 +286,8 @@ body {
 
 .main .hero .hero-dropdown-btn {
   border: 1px solid rgba(0, 0, 0, 0.452);
-  padding: 3% 4%;
-  font-size: 0.8vw;
+  padding: 0.625rem 0.9375rem;
+  font-size: 0.75rem;
   color: rgba(0, 0, 0, 0.712);
   font-weight: 600;
   border-radius: 3px;
@@ -297,13 +298,13 @@ body {
 }
 
 .main .hero .hero-dropdown-menu .hero-dropdown-item {
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 .main .hero .hero-dropdown-menu .hero-dropdown-item .hero-dropdown-link {
   color: rgba(0, 0, 0, 0.712);
   font-weight: 600;
-  font-size: 0.8vw;
+  font-size: 0.75rem;
 }
 
 .main .other-seasons {
@@ -315,13 +316,13 @@ body {
 .main .other-seasons .season-img {
   width: 19vw;
   height: 19vh;
-  padding: 0 3%;
+  padding: 0 0.625rem;
   border-radius: 15px;
 }
 
 .main .other-seasons .season-title {
   color: white;
-  font-size: 1vw;
+  font-size: 0.875rem;
   position: relative;
   top: -25%;
   left: 10%;
@@ -338,10 +339,10 @@ body {
 }
 
 .main .feeds-profiles .feed .feed-header-menu .feed-title {
-  padding-right: 4%;
+  padding-right: 0.625rem;
   color: rgba(0, 0, 0, 0.712);
   font-weight: 600;
-  font-size: 1vw;
+  font-size: 0.9375rem;
 }
 
 .main .feeds-profiles .feed .container-episode-rating {
@@ -357,7 +358,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2% 0;
+  padding: 1.25rem 0;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .episode-feed-section .episode-feed-img {
@@ -367,7 +368,7 @@ body {
 }
 
 .main .feeds-profiles .feed .container-episode-rating .episode-feed-section .episode-feed-content {
-  padding-left: 3%;
+  padding-left: 0.9375rem;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .episode-feed-section .episode-feed-content .feed-content-heading {
@@ -378,20 +379,20 @@ body {
 
 .main .feeds-profiles .feed .container-episode-rating .episode-feed-section .episode-feed-content .feed-content-heading .feed-content-title {
   color: rgba(0, 0, 0, 0.712);
-  padding-right: 3%;
-  font-size: 1vw;
+  padding-right: 0.625rem;
+  font-size: 0.75rem;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .episode-feed-section .episode-feed-content .feed-content-heading .feed-content-sub-title {
   color: rgba(0, 0, 0, 0.452);
-  font-size: 0.7vw;
+  font-size: 0.625rem;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .episode-feed-section .episode-feed-content .feed-content-text {
   color: rgba(0, 0, 0, 0.452);
-  font-size: 0.9vw;
+  font-size: 0.8125rem;
   width: 30vw;
-  padding-top: 3%;
+  padding-top: 0.625rem;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .episode-feed-section .feed-content-btn {
@@ -399,16 +400,17 @@ body {
   outline: none;
   width: 9vw;
   height: 6vh;
+  border: 1px solid rgba(0, 0, 0, 0.37);
   border-radius: 5px;
   color: rgba(0, 0, 0, 0.712);
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
-  font-size: 0.8vw;
-  margin: 0 2vw;
+  font-size: 0.75rem;
+  margin: 0 1.25rem;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .episode-feed-section .feed-content-btn i {
-  padding-left: 1%;
+  padding-left: 0.625rem;
   font-weight: 600;
 }
 
@@ -423,7 +425,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2% 0;
+  padding: 1.25rem 0;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .rating-feed-section .rating-feed-img {
@@ -433,7 +435,7 @@ body {
 }
 
 .main .feeds-profiles .feed .container-episode-rating .rating-feed-section .rating-feed-content {
-  padding-left: 3%;
+  padding-left: 0.9375rem;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .rating-feed-section .rating-feed-content .rating-feed-content-heading {
@@ -444,20 +446,20 @@ body {
 
 .main .feeds-profiles .feed .container-episode-rating .rating-feed-section .rating-feed-content .rating-feed-content-heading .rating-feed-content-title {
   color: rgba(0, 0, 0, 0.712);
-  padding-right: 3%;
-  font-size: 1vw;
+  padding-right: 0.625rem;
+  font-size: 0.75rem;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .rating-feed-section .rating-feed-content .rating-feed-content-heading .rating-feed-content-sub-title {
   color: rgba(0, 0, 0, 0.452);
-  font-size: 0.7vw;
+  font-size: 0.625rem;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .rating-feed-section .rating-feed-content .rating-feed-content-text {
   color: rgba(0, 0, 0, 0.452);
-  font-size: 0.9vw;
+  font-size: 0.8125rem;
   width: 30vw;
-  padding-top: 3%;
+  padding-top: 0.625rem;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .rating-feed-section .rating-feed-content-btn {
@@ -465,16 +467,17 @@ body {
   outline: none;
   width: 9vw;
   height: 6vh;
+  border: 1px solid rgba(0, 0, 0, 0.37);
   border-radius: 5px;
   color: rgba(0, 0, 0, 0.712);
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
-  font-size: 0.8vw;
-  margin: 0 2vw;
+  font-size: 0.75rem;
+  margin: 0 1.25rem;
 }
 
 .main .feeds-profiles .feed .container-episode-rating .rating-feed-section .rating-feed-content-btn i {
-  padding-left: 1%;
+  padding-left: 0.625rem;
   font-weight: 600;
 }
 
@@ -496,10 +499,10 @@ body {
 }
 
 .main .feeds-profiles .card-carosal .card .card-body {
-  margin-top: -50%;
+  margin-top: -9.375rem;
   width: 22vw;
   color: white;
-  padding-left: 6%;
+  padding-left: 1.25rem;
 }
 
 .main .feeds-profiles .card-carosal .card .card-body .card-group-btn {
@@ -513,18 +516,18 @@ body {
   background-color: transparent;
   outline: none;
   color: white;
-  font-size: 1vw;
+  font-size: 0.9375rem;
 }
 
 .main .feeds-profiles .card-carosal .card .card-body .card-title {
-  font-size: 1.2vw;
+  font-size: 0.875rem;
 }
 
 .main .feeds-profiles .card-carosal .card .card-body .card-text {
-  font-size: 0.9vw;
+  font-size: 0.875rem;
   width: 18vw;
   line-height: 135%;
-  padding-top: 5%;
+  padding-top: 0.625rem;
 }
 
 .main .feeds-profiles .card-carosal .card:nth-child(3) {
